@@ -1,0 +1,30 @@
+.center{
+    text-align: center;
+}
+
+.case_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.death_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.font{
+    font-family: 'Comfortaa', cursive
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%)
+}
+
+.zoom{
+    transition: transform 1.5s;
+  }
+  
+  .zoom:hover{
+    transform: scale(1.08);
+  }
