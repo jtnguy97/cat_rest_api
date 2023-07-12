@@ -1,16 +1,11 @@
+
 .center{
     text-align: center;
 }
 
-.case_container{
-    display: flex;
-    flex-direction: column;
-}
-
-.death_container{
-    display: flex;
-    flex-direction: row;
-}
+nav .navbar-light{
+    color: white;
+} 
 
 .font{
     font-family: 'Comfortaa', cursive
@@ -23,8 +18,31 @@
 
 .zoom{
     transition: transform 1.5s;
-  }
+}
   
-  .zoom:hover{
+.zoom:hover{
     transform: scale(1.08);
-  }
+}
+
+.padding{
+    margin-bottom: 100px;
+}
+
+.search button{
+    border: none;
+    background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  100%);   
+} 
+
+.state_and_population{
+    display: flex;
+    flex-direction: column;
+    background: lightcoral;
+    align-items: center;
+}
+
+.details{
+    background: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
