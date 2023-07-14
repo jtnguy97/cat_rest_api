@@ -3,10 +3,6 @@
     text-align: center;
 }
 
-nav .navbar-light{
-    color: white;
-} 
-
 .font{
     font-family: 'Comfortaa', cursive
 }
@@ -30,7 +26,20 @@ nav .navbar-light{
 
 .search button{
     border: none;
+    margin-left: 20px;
     background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  100%);   
+    border-radius: 25px;
+    padding-left: 13px;
+    padding-right: 13px
+} 
+
+.search_department button{
+    border: none;
+    margin-left: 20px;
+    background: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  100%);   
+    border-radius: 25px;
+    padding-left: 13px;
+    padding-right: 13px
 } 
 
 .state_and_population{
