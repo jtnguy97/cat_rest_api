@@ -36,14 +36,20 @@
 
 <section id = "statistics">
     <br><br><br><br>
-    <h2>Latest Covid Statistics</h2>
+    <h2>Latest Covid Statistics</h2><br>
+       
         <div class = "search">
             <input type = "text" placeholder = "enter state name" spellcheck = "true">
             <button><i class="bi bi-search"></i></button>
         </div>
 
-<br><br>
-        <div>
+        <div class = "error">
+            <br>
+            <p style = "color: red">Invalid State Name</p>
+        </div>  
+<br>
+
+        <div class = "state_details">
             <h3 class = "state"></h3>
                 <div>
                     <div class = "state_and_population">
@@ -72,7 +78,10 @@
                        <p class = "total_deaths"></p>           
                     </div>
             </div>
+    </div>
 </div>
+
+
 </section>
 
     <section id = "pictures"> 

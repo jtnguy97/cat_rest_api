@@ -47,11 +47,17 @@
     flex-direction: column;
     background: lightcoral;
     align-items: center;
+    padding-top: 15px;
 }
 
 .details{
+    padding-top: 15px;
     background: lightgoldenrodyellow;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.searchbar_error{
+    flex-direction: column;
 }
